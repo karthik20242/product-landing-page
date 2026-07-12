@@ -1,43 +1,20 @@
-# 🚀 Product Landing Page
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A modern and visually engaging product landing page designed to showcase a product with a premium user experience. This project focuses on creating a clean interface, responsive layouts, smooth animations, and an attractive product presentation.
+# Run and deploy your AI Studio app
 
-## 🌐 Live Demo
+This contains everything you need to run your app locally.
 
-🔗 Live Website:
-https://product-landing-page-tau-peach.vercel.app/
+View your app in AI Studio: https://ai.studio/apps/83f5571d-f909-4574-9272-b412d4078fe0
 
----
+## Run Locally
 
-## 📌 Project Overview
+**Prerequisites:**  Node.js
 
-This project is a frontend-only product landing page created to demonstrate modern web design practices. The website is designed with a strong focus on user engagement, visual hierarchy, responsiveness, and seamless navigation.
 
-The landing page includes a visually appealing hero section, product highlights, feature sections, call-to-action areas, and a modern responsive layout suitable for real-world product marketing.
-
----
-
-## ✨ Features
-
-- 🎨 Premium and modern UI design
-- 📱 Fully responsive across all devices
-- 🚀 Attractive hero section with call-to-action
-- 🖼️ Product showcase sections
-- ⚡ Smooth animations and interactive elements
-- 📌 Clean navigation structure
-- 💻 Optimized frontend performance
-- 🌙 Modern styling and layout techniques
-
----
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- Modern UI/UX Principles
-
----
-
-## 📂 Project Structure
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
